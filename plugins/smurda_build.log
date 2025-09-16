@@ -1,0 +1,313 @@
+Build started at 6:40 PM...
+1>------ Build started: Project: shmurda (Plugins\shmurda), Configuration: Release x64 ------
+1>shmurda.cpp
+1>C:\Users\based\Desktop\dfhack\library\include\Error.h(43,9): warning C4068: unknown pragma 'push'
+1>(compiling source file 'shmurda.cpp')
+1>C:\Users\based\Desktop\dfhack\library\include\Error.h(56,27): warning C4251: 'DFHack::Error::All::full': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'DFHack::Error::All'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+1>    see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Error.h(67,9): warning C4068: unknown pragma 'pop'
+1>(compiling source file 'shmurda.cpp')
+1>C:\Users\based\Desktop\dfhack\library\include\Error.h(106,31): warning C4251: 'DFHack::Error::SymbolsXmlParse::desc': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'DFHack::Error::SymbolsXmlParse'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+1>    see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Error.h(116,25): warning C4251: 'DFHack::Error::SymbolsXmlBadAttribute::attr': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'DFHack::Error::SymbolsXmlBadAttribute'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+1>    see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Error.h(129,25): warning C4251: 'DFHack::Error::SymbolsXmlUnderspecifiedEntry::where': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'DFHack::Error::SymbolsXmlUnderspecifiedEntry'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+1>    see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+1>C:\Users\based\Desktop\dfhack\library\include\ColorText.h(160,34): warning C4251: 'DFHack::buffered_color_ostream::buffer': 'std::list<DFHack::buffered_color_ostream::fragment_type,std::allocator<DFHack::buffered_color_ostream::fragment_type>>' needs to have dll-interface to be used by clients of 'DFHack::buffered_color_ostream'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\list(755,7):
+1>    see declaration of 'std::list<DFHack::buffered_color_ostream::fragment_type,std::allocator<DFHack::buffered_color_ostream::fragment_type>>'
+1>C:\Users\based\Desktop\dfhack\library\include\DataDefs.h(142,55): warning C4251: 'DFHack::compound_identity::scope_children': 'std::vector<const DFHack::compound_identity *,std::allocator<const DFHack::compound_identity *>>' needs to have dll-interface to be used by clients of 'DFHack::compound_identity'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+1>    see declaration of 'std::vector<const DFHack::compound_identity *,std::allocator<const DFHack::compound_identity *>>'
+1>C:\Users\based\Desktop\dfhack\library\include\DataDefs.h(143,54): warning C4251: 'DFHack::compound_identity::top_scope': 'std::vector<const DFHack::compound_identity *,std::allocator<const DFHack::compound_identity *>>' needs to have dll-interface to be used by clients of 'DFHack::compound_identity'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+1>    see declaration of 'std::vector<const DFHack::compound_identity *,std::allocator<const DFHack::compound_identity *>>'
+1>C:\Users\based\Desktop\dfhack\library\include\DataDefs.h(290,53): warning C4251: 'DFHack::struct_identity::children': 'std::vector<const DFHack::struct_identity *,std::allocator<const DFHack::struct_identity *>>' needs to have dll-interface to be used by clients of 'DFHack::struct_identity'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+1>    see declaration of 'std::vector<const DFHack::struct_identity *,std::allocator<const DFHack::struct_identity *>>'
+1>C:\Users\based\Desktop\dfhack\library\include\DataDefs.h(364,51): warning C4251: 'DFHack::virtual_identity::known': 'std::map<void *,DFHack::virtual_identity *,std::less<void *>,std::allocator<std::pair<void *const ,DFHack::virtual_identity *>>>' needs to have dll-interface to be used by clients of 'DFHack::virtual_identity'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+1>    see declaration of 'std::map<void *,DFHack::virtual_identity *,std::less<void *>,std::allocator<std::pair<void *const ,DFHack::virtual_identity *>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\DataDefs.h(373,57): warning C4251: 'DFHack::virtual_identity::interpose_list': 'std::map<int,DFHack::VMethodInterposeLinkBase *,std::less<int>,std::allocator<std::pair<const int,DFHack::VMethodInterposeLinkBase *>>>' needs to have dll-interface to be used by clients of 'DFHack::virtual_identity'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+1>    see declaration of 'std::map<int,DFHack::VMethodInterposeLinkBase *,std::less<int>,std::allocator<std::pair<const int,DFHack::VMethodInterposeLinkBase *>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\DataDefs.h(511,9): warning C4068: unknown pragma 'GCC'
+1>(compiling source file 'shmurda.cpp')
+1>C:\Users\based\Desktop\dfhack\library\include\DataDefs.h(512,9): warning C4068: unknown pragma 'GCC'
+1>(compiling source file 'shmurda.cpp')
+1>C:\Users\based\Desktop\dfhack\library\include\DataDefs.h(519,9): warning C4068: unknown pragma 'GCC'
+1>(compiling source file 'shmurda.cpp')
+1>C:\Users\based\Desktop\dfhack\library\include\df\cmv_version.h(38,53): warning C4251: 'df::enum_traits<df::enums::cmv_version::cmv_version>::complex': 'DFHack::enum_identity::ComplexData' needs to have dll-interface to be used by clients of 'df::enum_traits<df::enums::cmv_version::cmv_version>'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Users\based\Desktop\dfhack\library\include\DataDefs.h(203,16):
+1>    see declaration of 'DFHack::enum_identity::ComplexData'
+1>C:\Users\based\Desktop\dfhack\library\include\df\lever_target_type.h(58,53): warning C4251: 'df::enum_traits<df::enums::lever_target_type::lever_target_type>::complex': 'DFHack::enum_identity::ComplexData' needs to have dll-interface to be used by clients of 'df::enum_traits<df::enums::lever_target_type::lever_target_type>'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Users\based\Desktop\dfhack\library\include\DataDefs.h(203,16):
+1>    see declaration of 'DFHack::enum_identity::ComplexData'
+1>C:\Users\based\Desktop\dfhack\library\include\df\save_version.h(151,53): warning C4251: 'df::enum_traits<df::enums::save_version::save_version>::complex': 'DFHack::enum_identity::ComplexData' needs to have dll-interface to be used by clients of 'df::enum_traits<df::enums::save_version::save_version>'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Users\based\Desktop\dfhack\library\include\DataDefs.h(203,16):
+1>    see declaration of 'DFHack::enum_identity::ComplexData'
+1>C:\Users\based\Desktop\dfhack\library\include\df\widget.h(24,42): warning C4251: 'df::widget::custom_feed': 'std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>' needs to have dll-interface to be used by clients of 'df::widget'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+1>    see declaration of 'std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\df\widget.h(25,42): warning C4251: 'df::widget::custom_logic': 'std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>' needs to have dll-interface to be used by clients of 'df::widget'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+1>    see declaration of 'std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\df\widget.h(26,42): warning C4251: 'df::widget::custom_render': 'std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>' needs to have dll-interface to be used by clients of 'df::widget'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+1>    see declaration of 'std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\df\widget.h(27,42): warning C4251: 'df::widget::custom_activated': 'std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>' needs to have dll-interface to be used by clients of 'df::widget'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+1>    see declaration of 'std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\df\widget.h(28,17): warning C4251: 'df::widget::name': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'df::widget'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+1>    see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+1>C:\Users\based\Desktop\dfhack\library\include\df\widget.h(29,21): warning C4251: 'df::widget::flag': 'df::widget_flag' needs to have dll-interface to be used by clients of 'df::widget'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Users\based\Desktop\dfhack\library\include\df\widget_flag.h(10,9):
+1>    see declaration of 'df::widget_flag'
+1>C:\Users\based\Desktop\dfhack\library\include\df\widget.h(40,55): warning C4251: 'df::widget::tooltip': 'std::variant<std::string,std::function<void (void)>>' needs to have dll-interface to be used by clients of 'df::widget'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\variant(923,7):
+1>    see declaration of 'std::variant<std::string,std::function<void (void)>>'
+1>C:\Users\based\Desktop\dfhack\library\include\df\widget.h(43,17): warning C4251: 'df::widget::search_string': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'df::widget'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+1>    see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+1>C:\Users\based\Desktop\dfhack\library\include\df\widget.h(44,34): warning C4251: 'df::widget::activation_hotkeys': 'std::set<df::enums::interface_key::interface_key,std::less<df::enums::interface_key::interface_key>,std::allocator<df::enums::interface_key::interface_key>>' needs to have dll-interface to be used by clients of 'df::widget'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\set(51,7):
+1>    see declaration of 'std::set<df::enums::interface_key::interface_key,std::less<df::enums::interface_key::interface_key>,std::allocator<df::enums::interface_key::interface_key>>'
+1>C:\Users\based\Desktop\dfhack\library\include\df\widget_container.h(16,28): warning C4251: 'df::widget_container::children_by_name': 'std::map<void *,void *,std::less<void *>,std::allocator<std::pair<void *const ,void *>>>' needs to have dll-interface to be used by clients of 'df::widget_container'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+1>    see declaration of 'std::map<void *,void *,std::less<void *>,std::allocator<std::pair<void *const ,void *>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\df\widget_container.h(17,48): warning C4251: 'df::widget_container::children': 'std::vector<std::shared_ptr<df::widget>,std::allocator<std::shared_ptr<df::widget>>>' needs to have dll-interface to be used by clients of 'df::widget_container'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+1>    see declaration of 'std::vector<std::shared_ptr<df::widget>,std::allocator<std::shared_ptr<df::widget>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\df\viewscreen.h(17,54): warning C4251: 'df::viewscreen::breakdown_level': 'df::enum_field<df::enums::interface_breakdown_types::interface_breakdown_types,int8_t>' needs to have dll-interface to be used by clients of 'df::viewscreen'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Users\based\Desktop\dfhack\library\include\DataDefs.h(555,12):
+1>    see declaration of 'df::enum_field<df::enums::interface_breakdown_types::interface_breakdown_types,int8_t>'
+1>C:\Users\based\Desktop\dfhack\library\include\df\graphic_viewportst.h(11,31): warning C4251: 'df::graphic_viewportst::flag': 'df::graphic_viewport_flag' needs to have dll-interface to be used by clients of 'df::graphic_viewportst'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Users\based\Desktop\dfhack\library\include\df\graphic_viewport_flag.h(10,9):
+1>    see declaration of 'df::graphic_viewport_flag'
+1>C:\Users\based\Desktop\dfhack\library\include\modules\Screen.h(148,20): warning C4251: 'DFHack::Screen::ViewRect::view': 'std::pair<df::coord2d,df::coord2d>' needs to have dll-interface to be used by clients of 'DFHack::Screen::ViewRect'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(235,8):
+1>    see declaration of 'std::pair<df::coord2d,df::coord2d>'
+1>C:\Users\based\Desktop\dfhack\library\include\modules\Screen.h(148,26): warning C4251: 'DFHack::Screen::ViewRect::clip': 'std::pair<df::coord2d,df::coord2d>' needs to have dll-interface to be used by clients of 'DFHack::Screen::ViewRect'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\utility(235,8):
+1>    see declaration of 'std::pair<df::coord2d,df::coord2d>'
+1>C:\Users\based\Desktop\dfhack\library\include\modules\Screen.h(247,17): warning C4251: 'DFHack::Screen::Painter::cur_pen': 'DFHack::Screen::Pen' needs to have dll-interface to be used by clients of 'DFHack::Screen::Painter'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Users\based\Desktop\dfhack\library\include\modules\Screen.h(73,16):
+1>    see declaration of 'DFHack::Screen::Pen'
+1>C:\Users\based\Desktop\dfhack\library\include\modules\Screen.h(247,26): warning C4251: 'DFHack::Screen::Painter::cur_key_pen': 'DFHack::Screen::Pen' needs to have dll-interface to be used by clients of 'DFHack::Screen::Painter'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Users\based\Desktop\dfhack\library\include\modules\Screen.h(73,16):
+1>    see declaration of 'DFHack::Screen::Pen'
+1>C:\Users\based\Desktop\dfhack\library\include\modules\Screen.h(249,30): warning C4251: 'DFHack::Screen::Painter::default_pen': 'DFHack::Screen::Pen' needs to have dll-interface to be used by clients of 'DFHack::Screen::Painter'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Users\based\Desktop\dfhack\library\include\modules\Screen.h(73,16):
+1>    see declaration of 'DFHack::Screen::Pen'
+1>C:\Users\based\Desktop\dfhack\library\include\modules\Screen.h(250,30): warning C4251: 'DFHack::Screen::Painter::default_key_pen': 'DFHack::Screen::Pen' needs to have dll-interface to be used by clients of 'DFHack::Screen::Painter'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Users\based\Desktop\dfhack\library\include\modules\Screen.h(73,16):
+1>    see declaration of 'DFHack::Screen::Pen'
+1>C:\Users\based\Desktop\dfhack\library\include\modules\Screen.h(301,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+1>(compiling source file 'shmurda.cpp')
+1>C:\Users\based\Desktop\dfhack\library\include\modules\Screen.h(375,21): warning C4251: 'DFHack::dfhack_lua_viewscreen::focus': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'DFHack::dfhack_lua_viewscreen'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+1>    see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Console.h(175,27): warning C4251: 'DFHack::Console::inited': 'std::atomic<bool>' needs to have dll-interface to be used by clients of 'DFHack::Console'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\atomic(2113,8):
+1>    see declaration of 'std::atomic<bool>'
+1>C:\Users\based\Desktop\dfhack\library\include\modules\Graphic.h(55,55): warning C4251: 'DFHack::Graphic::funcs': 'std::vector<DFHack::DFTileSurface *(__cdecl *)(int,int),std::allocator<DFHack::DFTileSurface *(__cdecl *)(int,int)>>' needs to have dll-interface to be used by clients of 'DFHack::Graphic'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+1>    see declaration of 'std::vector<DFHack::DFTileSurface *(__cdecl *)(int,int),std::allocator<DFHack::DFTileSurface *(__cdecl *)(int,int)>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(93,47): warning C4251: 'DFHack::PerfCounters::event_manager_event_total_ms': 'std::unordered_map<int32_t,uint32_t,std::hash<int>,std::equal_to<int32_t>,std::allocator<std::pair<const int32_t,uint32_t>>>' needs to have dll-interface to be used by clients of 'DFHack::PerfCounters'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map(61,7):
+1>    see declaration of 'std::unordered_map<int32_t,uint32_t,std::hash<int>,std::equal_to<int32_t>,std::allocator<std::pair<const int32_t,uint32_t>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(94,80): warning C4251: 'DFHack::PerfCounters::event_manager_event_per_plugin_ms': 'std::unordered_map<int32_t,std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>,std::hash<int>,std::equal_to<int32_t>,std::allocator<std::pair<const int32_t,std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>>>>' needs to have dll-interface to be used by clients of 'DFHack::PerfCounters'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map(61,7):
+1>    see declaration of 'std::unordered_map<int32_t,std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>,std::hash<int>,std::equal_to<int32_t>,std::allocator<std::pair<const int32_t,std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(95,51): warning C4251: 'DFHack::PerfCounters::update_per_plugin': 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>' needs to have dll-interface to be used by clients of 'DFHack::PerfCounters'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map(61,7):
+1>    see declaration of 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(96,51): warning C4251: 'DFHack::PerfCounters::state_change_per_plugin': 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>' needs to have dll-interface to be used by clients of 'DFHack::PerfCounters'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map(61,7):
+1>    see declaration of 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(97,51): warning C4251: 'DFHack::PerfCounters::update_lua_per_repeat': 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>' needs to have dll-interface to be used by clients of 'DFHack::PerfCounters'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map(61,7):
+1>    see declaration of 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(98,51): warning C4251: 'DFHack::PerfCounters::overlay_per_widget': 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>' needs to have dll-interface to be used by clients of 'DFHack::PerfCounters'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map(61,7):
+1>    see declaration of 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(99,51): warning C4251: 'DFHack::PerfCounters::zscreen_per_focus': 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>' needs to have dll-interface to be used by clients of 'DFHack::PerfCounters'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_map(61,7):
+1>    see declaration of 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(130,21): warning C4251: 'DFHack::StateChangeScript::path': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'DFHack::StateChangeScript'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+1>    see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(210,42): warning C4251: 'DFHack::Core::p': 'std::unique_ptr<DFHack::Process,std::default_delete<DFHack::Process>>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3335,7):
+1>    see declaration of 'std::unique_ptr<DFHack::Process,std::default_delete<DFHack::Process>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(211,46): warning C4251: 'DFHack::Core::vinfo': 'std::shared_ptr<DFHack::VersionInfo>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(1560,7):
+1>    see declaration of 'std::shared_ptr<DFHack::VersionInfo>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(235,34): warning C4251: 'DFHack::Core::d': 'std::unique_ptr<DFHack::Core::Private,std::default_delete<DFHack::Core::Private>>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3335,7):
+1>    see declaration of 'std::unique_ptr<DFHack::Core::Private,std::default_delete<DFHack::Core::Private>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(263,53): warning C4251: 'DFHack::Core::vif': 'std::unique_ptr<DFHack::VersionInfoFactory,std::default_delete<DFHack::VersionInfoFactory>>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3335,7):
+1>    see declaration of 'std::unique_ptr<DFHack::VersionInfoFactory,std::default_delete<DFHack::VersionInfoFactory>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(270,46): warning C4251: 'DFHack::Core::allModules': 'std::vector<std::unique_ptr<DFHack::Module,std::default_delete<DFHack::Module>>,std::allocator<std::unique_ptr<DFHack::Module,std::default_delete<DFHack::Module>>>>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+1>    see declaration of 'std::vector<std::unique_ptr<DFHack::Module,std::default_delete<DFHack::Module>>,std::allocator<std::unique_ptr<DFHack::Module,std::default_delete<DFHack::Module>>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(273,44): warning C4251: 'DFHack::Core::script_paths': 'std::vector<std::filesystem::path,std::allocator<std::filesystem::path>>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+1>    see declaration of 'std::vector<std::filesystem::path,std::allocator<std::filesystem::path>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(274,20): warning C4251: 'DFHack::Core::script_path_mutex': 'std::mutex' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex(98,19):
+1>    see declaration of 'std::mutex'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(287,41): warning C4251: 'DFHack::Core::armok_tools': 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\unordered_set(59,7):
+1>    see declaration of 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(288,49): warning C4251: 'DFHack::Core::key_bindings': 'std::map<int,std::vector<DFHack::Core::KeyBinding,std::allocator<DFHack::Core::KeyBinding>>,std::less<int>,std::allocator<std::pair<const int,std::vector<DFHack::Core::KeyBinding,std::allocator<DFHack::Core::KeyBinding>>>>>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+1>    see declaration of 'std::map<int,std::vector<DFHack::Core::KeyBinding,std::allocator<DFHack::Core::KeyBinding>>,std::less<int>,std::allocator<std::pair<const int,std::vector<DFHack::Core::KeyBinding,std::allocator<DFHack::Core::KeyBinding>>>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(289,21): warning C4251: 'DFHack::Core::hotkey_cmd': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+1>    see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(296,20): warning C4251: 'DFHack::Core::HotkeyMutex': 'std::mutex' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex(98,19):
+1>    see declaration of 'std::mutex'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(297,33): warning C4251: 'DFHack::Core::HotkeyCond': 'std::condition_variable' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex(532,19):
+1>    see declaration of 'std::condition_variable'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(299,57): warning C4251: 'DFHack::Core::aliases': 'std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+1>    see declaration of 'std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(300,30): warning C4251: 'DFHack::Core::alias_mutex': 'std::recursive_mutex' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex(106,19):
+1>    see declaration of 'std::recursive_mutex'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(312,27): warning C4251: 'DFHack::Core::started': 'std::atomic<bool>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\atomic(2113,8):
+1>    see declaration of 'std::atomic<bool>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(314,40): warning C4251: 'DFHack::Core::state_change_scripts': 'std::vector<DFHack::StateChangeScript,std::allocator<DFHack::StateChangeScript>>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+1>    see declaration of 'std::vector<DFHack::StateChangeScript,std::allocator<DFHack::StateChangeScript>>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(322,36): warning C4251: 'DFHack::Core::CoreSuspendMutex': 'std::recursive_timed_mutex' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\mutex(709,19):
+1>    see declaration of 'std::recursive_timed_mutex'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(323,37): warning C4251: 'DFHack::Core::CoreWakeup': 'std::condition_variable_any' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\condition_variable(52,19):
+1>    see declaration of 'std::condition_variable_any'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(324,38): warning C4251: 'DFHack::Core::ownerThread': 'std::atomic<std::thread::id>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\atomic(2113,8):
+1>    see declaration of 'std::atomic<std::thread::id>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(325,29): warning C4251: 'DFHack::Core::toolCount': 'std::atomic<unsigned __int64>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\atomic(2113,8):
+1>    see declaration of 'std::atomic<unsigned __int64>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(326,27): warning C4251: 'DFHack::Core::shutdown': 'std::atomic<bool>' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\atomic(2113,8):
+1>    see declaration of 'std::atomic<bool>'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(329,25): warning C4251: 'DFHack::Core::df_render_thread': 'std::thread::id' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread(227,15):
+1>    see declaration of 'std::thread::id'
+1>C:\Users\based\Desktop\dfhack\library\include\Core.h(330,25): warning C4251: 'DFHack::Core::df_simulation_thread': 'std::thread::id' needs to have dll-interface to be used by clients of 'DFHack::Core'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\thread(227,15):
+1>    see declaration of 'std::thread::id'
+1>C:\Users\based\Desktop\dfhack\library\include\PluginManager.h(131,27): warning C4251: 'DFHack::PluginCommand::name': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'DFHack::PluginCommand'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+1>    see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+1>C:\Users\based\Desktop\dfhack\library\include\PluginManager.h(132,27): warning C4251: 'DFHack::PluginCommand::description': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'DFHack::PluginCommand'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+1>    see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+1>C:\Users\based\Desktop\dfhack\library\include\PluginManager.h(137,21): warning C4251: 'DFHack::PluginCommand::usage': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'DFHack::PluginCommand'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+1>    see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+1>C:\Users\based\Desktop\dfhack\library\include\PluginManager.h(287,41): warning C4251: 'DFHack::PluginManager::command_map': 'std::map<std::string,DFHack::Plugin *,std::less<std::string>,std::allocator<std::pair<const std::string,DFHack::Plugin *>>>' needs to have dll-interface to be used by clients of 'DFHack::PluginManager'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+1>    see declaration of 'std::map<std::string,DFHack::Plugin *,std::less<std::string>,std::allocator<std::pair<const std::string,DFHack::Plugin *>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\PluginManager.h(288,41): warning C4251: 'DFHack::PluginManager::all_plugins': 'std::map<std::string,DFHack::Plugin *,std::less<std::string>,std::allocator<std::pair<const std::string,DFHack::Plugin *>>>' needs to have dll-interface to be used by clients of 'DFHack::PluginManager'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+1>    see declaration of 'std::map<std::string,DFHack::Plugin *,std::less<std::string>,std::allocator<std::pair<const std::string,DFHack::Plugin *>>>'
+1>C:\Users\based\Desktop\dfhack\library\include\PluginManager.h(289,21): warning C4251: 'DFHack::PluginManager::plugin_path': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of 'DFHack::PluginManager'
+1>(compiling source file 'shmurda.cpp')
+1>    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+1>    see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+1>   Creating library C:\Users\based\Desktop\dfhack\build\win64\VC2022\plugins\Release\shmurda.lib and object C:\Users\based\Desktop\dfhack\build\win64\VC2022\plugins\Release\shmurda.exp
+1>Generating code
+1>2 of 134 functions ( 1.5%) were compiled, the rest were copied from previous compilation.
+1>  0 functions were new in current compilation
+1>  1 functions had inline decision re-evaluated but remain unchanged
+1>Finished generating code
+1>shmurda.vcxproj -> C:\Users\based\Desktop\dfhack\build\win64\VC2022\plugins\Release\shmurda.dll
+1>Done building project "shmurda.vcxproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 6:40 PM and took 02.570 seconds ==========
