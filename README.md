@@ -11,4 +11,4 @@ To compile the plugin yourself i reccomend getting the DFhack source code to com
 
 i might make a tutourial for how to compile and create dfhack plugins like this on my YouTube or a guide here
 
-also its funny how github changed the repo name to c-_plugin when i typed c++_plugin. some funny url syntaxing errors might occur otherwise probably
+also its funny how github changed the repo name to c-_plugin when i typed c++_plugin. funny
